@@ -10,7 +10,7 @@ function CoursesTable() {
 
   useEffect(() => {
     axios
-      .get("http://localhost:3033/courses")
+      .get("https://raw.githubusercontent.com/Leovihildo/student-dashboard/refs/heads/main/src/components/coursesDB.json")
       .then((resp) => {
         setCourse(resp.data);
         setLoading(false);
