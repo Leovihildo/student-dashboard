@@ -1,0 +1,29 @@
+{
+    "courses":[
+        {
+            "id": 3,
+            "code": "CSC102",
+            "title": "Introduction to programming"
+        },
+        {
+            "id": 5,
+            "code": "CSC105",
+            "title": "Software and design"
+        },
+        {
+            "id": 7,
+            "code": "CSC231",
+            "title": "Theory of computation"
+        },
+        {
+            "id": 9,
+            "code": "CSC243",
+            "title": "Database Management"
+        },
+        {
+            "id": 11,
+            "code": "CSC314",
+            "title": "Computer architecture"
+        }
+    ]
+}
