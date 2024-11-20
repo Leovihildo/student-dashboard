@@ -12,6 +12,7 @@ function CoursesTable() {
     axios
       .get("https://raw.githubusercontent.com/Leovihildo/student-dashboard/refs/heads/main/src/components/coursesDB.json")
       .then((resp) => {
+        // console.log("Fetched courses:", resp.data);
         setCourse(resp.data);
         setLoading(false);
       })
